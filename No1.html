@@ -13,29 +13,33 @@
               text-decoration:underline;}
             a:hover{font-weight: 600;
                     text-decoration:none;}
-            main{width: 70vw;
-                 height: 70vh;
-                 margin-top: 15vh;
-                 margin-left: 15vw;
-                 background-color: white;
-                 min-width: 300px;
-                 z-index: 0;}
             h2{font-weight: 300;
                text-align: center;
                background: none;
-               padding-top: 20vh;
+               margin-top: 35vh;
                z-index: 10;}
-            span{text-decoration: underline;}
-            span:hover{color: white;
+            .nothing{text-decoration: underline;}
+            .nothing:hover{color: white;
                        text-decoration: none;}
+            img{position: fixed;
+                width: 500px;
+                padding-top: 25px;
+                right: 3vw;
+                z-index: 0;
+                display: block;
+                opacity: 0.15;}
+            img:hover{opacity: 1;}
+
         </style> 
         
     </head>
     <body>
-        <main>
             <h2>
-                I see <span>nothing</span> and <a href="No2.html">everything</a>
+                I see <span class="nothing">nothing</span> and 
+                    <a href="No2.html">everything</a>
+                    <a href="#">
+                        <img src="photos/everything.png">
+                    </a>
             </h2>
-        </main>
     </body>
 </html>
