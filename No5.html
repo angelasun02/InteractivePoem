@@ -7,6 +7,14 @@
             <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="assets/css/main-08012021.css">
         <style>
+         /*滚动条宽度*/
+        ::-webkit-scrollbar{width: 7px;
+                            height: 5px;}
+        /*滚动条按钮样式*/
+        ::-webkit-scrollbar-thumb{border-radius: 10px;
+                                  background-color: mediumpurple;}
+        /*滚动条背景样式*/
+        ::-webkit-scrollbar-track{border-radius: 10px;}
             body{background-color: white;
                  color: mediumpurple;
                  font-family:'Space Grotesk', serif;}
@@ -36,14 +44,14 @@
             p{line-height: 10px;
               color: mediumpurple;}
             a{font-weight: 600;
-              color: black;
-              opacity: 0.5;
+              color: grey;
+              
               text-decoration: none;}
-            a: hover{font-weight: 600;
-                      color: black;
-                      opacity: 1;
-                      border: 2px solid grey;}
-            div{height: 20px;}
+            a:hover{border: 3px solid grey;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                    padding-bottom: 2px;}
+            div{height: 15px;}
 
         </style>     
     </head>
